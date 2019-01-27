@@ -1,4 +1,9 @@
 n = int(input())
 a = list(map(int,input().split()))
-a.remove(a[0])
-print(sum(a))
+res=[]
+for i in range(n):
+    add = 0
+    for j in range(i+1,n):
+        add = add+ a[j]
+    res.append(add)
+print(max(res))
