@@ -6,7 +6,7 @@ def prefixsum(i):
 n = int(input(""))
 a = list(map(int,input().split()))
 for i in range(n):
-    if(i == 0):
+    if(i == (n-1)):
         print(prefixsum(i),end ="")
     else:
         print(prefixsum(i),end = " ")
