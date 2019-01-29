@@ -1,3 +1,3 @@
 a,b,c = map(int,input().split())
-y= a**b
-print(y%c)
+z= a**b
+print(z%c)
