@@ -8,7 +8,7 @@ for i in range(n-2):
         freq[i]+=1
 c = 0
 for i in range(len(lis)):
-    if(freq[i]<=k):
+    if(freq[i]<k):
         if(c == 0):
             print(lis[i],end ="")
             c+=1
