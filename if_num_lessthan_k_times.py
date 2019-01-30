@@ -2,7 +2,7 @@ n,k = map(int,input("").split())
 lis = list(map(int,input().split()))
 lis.sort()
 freq = [1]*n
-for i in range(n-2):
+for i in range(n-1):
     if(lis[i] == lis[i+1]):
         lis.remove(lis[i+1])
         freq[i]+=1
