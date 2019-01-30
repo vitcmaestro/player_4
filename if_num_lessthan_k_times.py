@@ -6,9 +6,11 @@ for i in range(n-1):
     if(lis[i] == lis[i+1]):
         lis.remove(lis[i+1])
         freq[i]+=1
+freq = freq[:len(lis)]
+print(freq)
 c = 0
 for i in range(len(lis)):
-    if(freq[i]<k):
+    if(freq[i]<=k):
         if(c == 0):
             print(lis[i],end ="")
             c+=1
