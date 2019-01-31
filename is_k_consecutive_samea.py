@@ -1,17 +1,17 @@
 n,k = map(int,input().split())
 a = []
-c = 0
+co = 0
 for i in range(n):
     s = input("")
     a.append(s)
 for i in range(n-1):
     if(a[i] == a[i+1]):
-        c+=1
+        co+=1
     else:
-        if(c == k):
+        if(co == k):
             break
-        c = 0
-if(c == k):
+        co = 0
+if(co == k):
     print("yes")
 else:
     print("no")
