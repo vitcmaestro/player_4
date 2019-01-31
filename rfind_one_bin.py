@@ -1,0 +1,5 @@
+n = bin(int(input("")))
+n = str(n)
+ind = n.rfind('1')
+length = len(n)
+print(length-ind)
