@@ -5,7 +5,7 @@ for i in range(n):
     if(i == 0):
         if(a[0] != a[0]):
             pass
-    if(i == n-1 and a[i] != a[i-1]):
+    elif(i == n-1 and a[i] != a[i-1]):
         pass
     else:
         if(a[i]< a[i-1] and a[i]<a[i+1]):
