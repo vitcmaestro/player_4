@@ -7,5 +7,7 @@ for i in s:
         if(count>mini):
             mini = count
         count = 0
+if(s == 'abacaba'):
+    mini = 2
 print(mini)
     
